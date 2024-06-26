@@ -1,0 +1,29 @@
+{
+    "name": "@fromborneo/awesome-kalimantan",
+    "private": true,
+    "version": "1.0.0",
+    "description": "a curated list of awesome kalimantan!",
+    "scripts": {
+      "start": "npm run build -- --pathprefix='/' && npx serve _site/",
+      "watch": "npx eleventy --watch",
+      "dev": "npx eleventy --serve",
+      "build": "npx eleventy",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fromborneo/awesome-kalimantan"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/fromborneo/awesome-kalimantan/issues"
+    },
+    "homepage": "https://github.com/fromborneo/awesome-kalimantan#readme",
+    "dependencies": {
+      "@11ty/eleventy": "^0.12.1",
+      "markdown-it": "^12.0.6",
+      "markdown-it-checkbox": "^1.1.0"
+    }
+  }
